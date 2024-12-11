@@ -11,9 +11,9 @@ Bubbletea is a Go framework based on The Elm Architecture, a design pattern for 
 
 The core concepts of the Elm Architecture—also applicable to Bubbletea—are:
 
-Model: Represents the application's state.
-View: Defines how the state is visually represented.
-Update: Describes how the state changes in response to messages.
+* Model: Represents the application's state.
+* View: Defines how the state is visually represented.
+* Update: Describes how the state changes in response to messages.
 In this example, the app uses a Root Model to manage global variables accessible by sub-models, a router for navigating between models, and a list/map of models, where each model corresponds to a specific widget or screen.
 
 When new messages are received, the Root Model propagates them to the appropriate sub-model based on the currently active model.
